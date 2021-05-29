@@ -1,6 +1,4 @@
 {
   "root": ".",
-  "crates": [
-    "@rsw/xi"
-  ]
+  "crates": ["@rsw/xi"]
 }
