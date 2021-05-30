@@ -11,7 +11,9 @@ export interface RouterProps {
 const Router: React.FC<RouterProps> = ({ routes }) => {
   return (
     <Switch>
-      {routes.map((route: RouteOption) => <RouteWithSubRoutes key={route.path} {...route} />)}
+      {routes.map((route: RouteOption) => (
+        <RouteWithSubRoutes key={route.path} {...route} />
+      ))}
     </Switch>
   );
 };

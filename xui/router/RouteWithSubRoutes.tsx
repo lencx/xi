@@ -8,9 +8,11 @@ const RouteWithSubRoutes: React.FC<RouteOption> = (routeProps) => {
     <Suspense fallback={routeProps.fallback || null}>
       <Route
         path={routeProps.path}
-        render={(props) => (routeProps.component &&
-          <routeProps.component {...props} routes={routeProps.routes} />
-        )}
+        render={(props) =>
+          routeProps.component && (
+            <routeProps.component {...props} routes={routeProps.routes} />
+          )
+        }
       />
     </Suspense>
   );

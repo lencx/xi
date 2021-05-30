@@ -1,0 +1,15 @@
+.xi-layout {
+  &-main {
+    display: flex;
+  }
+
+  &-side {
+    width: 300px;
+  }
+  &-edit {
+    width: calc(70% - 300px);
+  }
+  &-preview {
+    width: 30%;
+  }
+}

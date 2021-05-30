@@ -1,4 +1,6 @@
-# XI
+<p align="center">
+  <img width="120" height="120"  src="./public/xi.svg" alt="xi" />
+</p>
 
 ## File System Access
 
